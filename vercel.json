@@ -1,0 +1,23 @@
+{
+  "build": {
+    "env": {
+      "DATABASE_URL": "postgresql://postgres.uamhnaoxmzdsjjpbxwas:takahiro1205@aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres"
+    }
+  },
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [],
+  "github": {
+    "silent": true
+  },
+  "framework": "next",
+  "functions": {
+    "api/*": {
+      "runtime": "nodejs14.x"
+    }
+  }
+}
