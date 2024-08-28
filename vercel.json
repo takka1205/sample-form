@@ -14,7 +14,7 @@
   "github": {
     "silent": true
   },
-  "framework": "next",
+  "framework": "nextjs",
   "functions": {
     "api/*": {
       "runtime": "nodejs14.x"
