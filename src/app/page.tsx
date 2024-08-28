@@ -45,7 +45,7 @@ export default function Home() {
       router.push("/complate");
     } else {
       toast({
-        description: "入力してください",
+        description: "入力してください.",
       });
     }
   };
